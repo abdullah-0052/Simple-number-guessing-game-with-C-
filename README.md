@@ -1,5 +1,4 @@
-# C++-Sayi-Tahmin-Oyunu
-c++ Sayi Tahmin Oyunu
+Simple number guessing game with C++
 
 #include <stdio.h>
 #include <stdlib.h>
