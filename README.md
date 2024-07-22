@@ -1,21 +1,21 @@
 Simple number guessing game with C++
 
-#include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
-#include <conio.h>
-#include <math.h>
 
-
-
-
-int main(int argc, char *argv[]) {
 		
-		
-		int sayilar[6], tahmin[6],dogrusayisi= 0;
-		srand(time(0));
-		char tus, button,c,g,f,d,t,z,p,v,i;
-		d=187,c=205,p=200,v=188,f=186,g=201;
+		#include <stdio.h>
+		#include <stdlib.h>
+		#include <time.h>
+		#include <conio.h>
+		#include <math.h>
+
+
+
+
+	int main(int argc, char *argv[]) {
+			int sayilar[6], tahmin[6],dogrusayisi= 0;
+			srand(time(0));
+			char tus, button,c,g,f,d,t,z,p,v,i;
+			d=187,c=205,p=200,v=188,f=186,g=201;
 	do{
 		
 		srand((unsigned) time(NULL));
